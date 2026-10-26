@@ -1,0 +1,5 @@
+# PHP execution block — security
+<FilesMatch "\.(php|php5|phtml|phar)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes
